@@ -47,20 +47,16 @@ document.addEventListener("keydown", function (event) {
     console.log("Key pressed - Key:", event.key, "Code:", event.code);
     kickSound.currentTime = 0;
     kickSound.play();
-  }
-  if (event.key === "s") {
+  } else if (event.key === "s") {
     rideSound.currentTime = 0;
     rideSound.play();
-  }
-  if (event.key === "d") {
+  } else if (event.key === "d") {
     snareSound.currentTime = 0;
     snareSound.play();
-  }
-  if (event.key === "f") {
+  } else if (event.key === "f") {
     tomSound.currentTime = 0;
     tomSound.play();
-  }
-  if (event.key === "g") {
+  } else if (event.key === "g") {
     hihatSound.currentTime = 0;
     hihatSound.play();
   }
